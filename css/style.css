@@ -1,0 +1,31 @@
+
+
+.height {
+	background: url(../img/bg.png) repeat scroll 0 0 transparent;
+	float: left;
+	height: 2000px;
+	width: 100%;
+}
+
+p {
+	color: #222;
+	font-size: 3em;
+	font-weight: bold;
+	margin-top: 250px;
+	text-align: center;
+	text-shadow: 1px 1px #666;
+	text-transform: capitalize;
+}
+
+.smooth {
+	background-color: #000;
+	display: none;
+	float: left;
+	height: 50px;
+  filter: alpha(opacity=0.5);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0.5)";
+  opacity: 0.5;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}

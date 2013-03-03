@@ -1,0 +1,3 @@
+$(function() {
+  $(".smooth").rlSmooth();
+});
