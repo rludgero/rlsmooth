@@ -23,11 +23,27 @@ A jQuery flowing effect plugin.
 				$(".smooth").rlSmooth();
 
 				// or with options
-				$(".smooth").rlSmooth({
+				$(".smooth").rlSmooth('slide',{
 					y: 0, //ms default settings for vertical window position
 					down: 500, // ms default settings for slide down effect speed
 					up: 500 // ms default settings for slide up effect speed
 				});
+
+				// Parameter options effects
+
+				// options     first effect second effect
+
+				// 'slide'     slideDown()  slideUp()
+				// 'slideout'  slideDown()  fadeOut()
+				// 'slidehide' slideDown()  hide()
+
+				// 'fade'      fadeIn()     fadeOut()
+				// 'fadeup'    fadeIn()     slideUp()
+				// 'fadehide'  fadeIn()     hide()
+
+				// 'showhide'  show()       hide()
+				// 'showup'    show()       slideUp()
+				// 'showout'   show()       fadeOut()
 
 			});
 
