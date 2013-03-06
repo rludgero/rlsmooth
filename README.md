@@ -11,33 +11,33 @@ A jQuery flowing effect plugin.
 
 <h3>HTML</h3>
 
-    <div class="smooth"></div>
+		<div class="smooth"></div>
 
 <h3>JS</h3>
 
 <p>How to implement:</p>
 
-    <script>
-      $(function() {
+		<script>
+			$(function() {
 
-        $(".smooth").rlSmooth();
+				$(".smooth").rlSmooth();
 
-        // or with options
-        $(".smooth").rlSmooth({
-          y: 0, //ms default settings for vertical window position
-          down: 500, // ms default settings for slide down effect speed
-          up: 500 // ms default settings for slide up effect speed
-        });
+				// or with options
+				$(".smooth").rlSmooth({
+					y: 0, //ms default settings for vertical window position
+					down: 500, // ms default settings for slide down effect speed
+					up: 500 // ms default settings for slide up effect speed
+				});
 
-      });
+			});
 
-    </script>
+		</script>
 
 <h2>Demo:</h2>
 
-<p>I will gradually updating and adding more effects options</p>
+<p>In the future my idea is implement more animations effects options include jQuery UI</p>
 
-<p>The default css position is top, but you can change to bottom or apply when you need, in the future my idea is implement more animations effects options include jQuery UI.</p>
+<p>The default css position is top, but you can change to bottom or apply when you need.</p>
 
 <p>http://rodrigoludgero.com/rlsmooth/rlsmooth.html</p>
 
