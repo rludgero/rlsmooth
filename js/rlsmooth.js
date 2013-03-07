@@ -12,7 +12,7 @@
 
 (function( $ ) {
 
-	$.fn.rlSticker = function(method, options) {
+	$.fn.rlSmooth = function(method, options) {
 
 		var $this = $(this);
 
