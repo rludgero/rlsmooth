@@ -25,8 +25,8 @@ A jQuery flowing effect plugin.
 				// or with options
 				$(".smooth").rlSmooth('slide',{
 					y: 0, //ms default settings for vertical window position
-					down: 500, // ms default settings for slide down effect speed
-					up: 500 // ms default settings for slide up effect speed
+					on: 500, // ms default settings effect speed
+					off: 500 // ms default settings effect speed
 				});
 
 				// Parameter options effects

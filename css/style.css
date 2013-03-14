@@ -11,7 +11,7 @@ p {
 	color: #222;
 	font-size: 3em;
 	font-weight: bold;
-	margin-top: 250px;
+	margin: 300px 0 600px;
 	text-align: center;
 	text-shadow: 1px 1px #666;
 	text-transform: capitalize;
@@ -19,13 +19,41 @@ p {
 
 .smooth {
 	background-color: #000;
+	color: #fff;
 	display: none;
 	float: left;
-	height: 50px;
+	font-size: 2em;
+	font-weight: bold;
   filter: alpha(opacity=0.5);
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0.5)";
   opacity: 0.5;
+  padding: 20px;
 	position: fixed;
-	top: 0;
+	text-align: center;
 	width: 100%;
 }
+
+.smooth.top {
+	top: 0;
+}
+
+.smooth.btn {
+	bottom: 0;
+	right: 0;
+	width: 200px;
+}
+
+.smooth.twt {
+	right: 100px;
+	bottom: 100px;
+	width: 100px;
+}
+.smooth.twt a {
+	color: #fff;
+	text-decoration: none;
+}
+
+
+
+
+

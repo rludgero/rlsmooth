@@ -19,8 +19,8 @@
 		var settings = $.extend({
 
 			y: 0, //ms default settings for vertical window position
-			down: 500, // ms default settings for slide down effect speed
-			up: 500 // ms default settings for slide up effect speed
+			on: 500, // ms default settings effect speed
+			off: 500 // ms default settings effect speed
 
 		}, options);
 
