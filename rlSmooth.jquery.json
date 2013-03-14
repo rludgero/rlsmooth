@@ -1,0 +1,26 @@
+{
+	"name": "rlSmooth",
+	"title": "rlSmooth",
+	"description": "A jQuery plugin with smooth effect scroll animation",
+	"keywords": [
+		"scroll",
+		"effect",
+		"animation"
+	],
+	"version": "0.1.0",
+	"author": {
+		"name": "Rodrigo Ludgero",
+		"url": "http://rodrigoludgero.com"
+	},
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "https://github.com/Rodrigo-Ludgero/rlsmooth/blob/master/README.md"
+		}
+	],
+	"homepage": "http://rodrigoludgero.com/rlsmooth/rlsmooth.html",
+	"demo": "http://rodrigoludgero.com/rlsmooth/rlsmooth.html",
+	"dependencies": {
+		"jquery": ">=1.5"
+	}
+}
