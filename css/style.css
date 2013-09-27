@@ -1,9 +1,8 @@
-
+@charset "utf-8";
 
 .height {
 	background: url(../img/bg.png) repeat scroll 0 0 transparent;
 	float: left;
-	height: 2000px;
 	width: 100%;
 }
 
@@ -11,13 +10,13 @@ p {
 	color: #222;
 	font-size: 3em;
 	font-weight: bold;
-	margin: 300px 0 600px;
+	margin: 240px 0 480px;
 	text-align: center;
 	text-shadow: 1px 1px #666;
 	text-transform: capitalize;
 }
 
-.smooth {
+.smooth-style {
 	background-color: #000;
 	color: #fff;
 	display: none;
@@ -27,33 +26,69 @@ p {
   filter: alpha(opacity=0.5);
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0.5)";
   opacity: 0.5;
-  padding: 2%;
-	position: fixed;
+  padding: 2% 0;
 	text-align: center;
-	width: 96%;
+	width: 100%;
 }
 
-.smooth.top {
+.smooth-style.slide-option {
+	position: fixed;
 	top: 0;
 }
 
-.smooth.btn {
+.smooth-style.slideOut-option {
+	position: fixed;
 	bottom: 0;
 	right: 0;
-	width: 200px;
+	width: 480px;
 }
 
-.smooth.twt {
-	right: 100px;
-	bottom: 100px;
-	width: 100px;
-}
-.smooth.twt a {
-	color: #fff;
-	text-decoration: none;
+.smooth-style.slideHide-option {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 480px;
 }
 
+.smooth-style.fade-option {
+	position: fixed;
+	left: 0;
+	top: 150px;
+	width: 480px;
+}
 
+.smooth-style.fadeUp-option {
+	position: fixed;
+	right: 0;
+	top: 150px;
+	width: 480px;
+}
 
+.smooth-style.fadeHide-option {
+	position: fixed;
+	left: 0;
+	top: 250px;
+	width: 480px;
+}
 
+.smooth-style.showHide-option {
+	position: fixed;
+	right: 0;
+	top: 250px;
+	width: 480px;
+}
+
+.smooth-style.showUp-option {
+	position: fixed;
+	left: 0;
+	top: 350px;
+	width: 480px;
+}
+
+.smooth-style.showOut-option {
+	position: fixed;
+	right: 0;
+	top: 350px;
+	width: 480px;
+}
 

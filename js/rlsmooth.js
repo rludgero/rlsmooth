@@ -60,7 +60,7 @@
 				});
 			},
 
-			slideout : function() {
+			slideOut : function() {
 				return this.each(function() {
 
 					$(window).scroll(function() {
@@ -77,7 +77,7 @@
 				});
 			},
 
-			slidehide : function() {
+			slideHide : function() {
 				return this.each(function() {
 
 					$(window).scroll(function() {
@@ -111,7 +111,7 @@
 				});
 			},
 
-			fadeup : function() {
+			fadeUp : function() {
 				return this.each(function() {
 
 					$(window).scroll(function() {
@@ -128,7 +128,7 @@
 				});
 			},
 
-			fadehide : function() {
+			fadeHide : function() {
 				return this.each(function() {
 
 					$(window).scroll(function() {
@@ -145,7 +145,7 @@
 				});
 			},
 
-			showhide : function() {
+			showHide : function() {
 				return this.each(function() {
 
 					$(window).scroll(function() {
@@ -162,7 +162,7 @@
 				});
 			},
 
-			showup : function() {
+			showUp : function() {
 				return this.each(function() {
 
 					$(window).scroll(function() {
@@ -179,7 +179,7 @@
 				});
 			},
 
-			showout : function() {
+			showOut : function() {
 				return this.each(function() {
 
 					$(window).scroll(function() {
