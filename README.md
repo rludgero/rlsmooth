@@ -11,7 +11,7 @@ A jQuery flowing effect plugin.
 
 <h3>HTML</h3>
 
-		<div class="smooth"></div>
+		<div class=".my-class"></div>
 
 <h3>JS</h3>
 
@@ -20,30 +20,30 @@ A jQuery flowing effect plugin.
 		<script>
 			$(function() {
 
-				$(".smooth").rlSmooth();
+				$(".my-class or #my-id").rlSmooth();
 
 				// or with options
-				$(".smooth").rlSmooth('slide',{
-					y: 0, //ms default settings for vertical window position
-					on: 500, // ms default settings effect speed
-					off: 500 // ms default settings effect speed
+				$(".my-class or #my-id").rlSmooth('slide',{
+					y: 0, 		// ms default settings for vertical window position
+					on: 500, 	// ms default settings effect speed
+					off: 500 	// ms default settings effect speed
 				});
 
 				// Parameter options effects
 
-				// options     first effect second effect
+				// Options     				First effect 			Second effect
 
-				// 'slide'     slideDown()  slideUp()
-				// 'slideout'  slideDown()  fadeOut()
-				// 'slidehide' slideDown()  hide()
+				// 'slide'     				slideDown()  			slideUp()
+				// 'slideout'  				slideDown()  			fadeOut()
+				// 'slidehide' 				slideDown()  			hide()
 
-				// 'fade'      fadeIn()     fadeOut()
-				// 'fadeup'    fadeIn()     slideUp()
-				// 'fadehide'  fadeIn()     hide()
+				// 'fade'      				fadeIn()     			fadeOut()
+				// 'fadeup'    				fadeIn()     			slideUp()
+				// 'fadehide'  				fadeIn()     			hide()
 
-				// 'showhide'  show()       hide()
-				// 'showup'    show()       slideUp()
-				// 'showout'   show()       fadeOut()
+				// 'showhide'  				show()       			hide()
+				// 'showup'    				show()       			slideUp()
+				// 'showout'   				show()       			fadeOut()
 
 			});
 
@@ -51,9 +51,7 @@ A jQuery flowing effect plugin.
 
 <h2>Demo:</h2>
 
-<p>In the future my idea is implement more animations effects options include jQuery UI</p>
-
-<p>The default css position is top, but you can change to bottom or apply when you need.</p>
+<p>The default css position is top, but you can change to bottom or apply when you need with css.</p>
 
 <p>http://rodrigoludgero.com/rlsmooth/rlsmooth.html</p>
 

@@ -10,7 +10,7 @@ p {
 	color: #222;
 	font-size: 3em;
 	font-weight: bold;
-	margin: 240px 0 480px;
+	margin: 240px 0 33%;
 	text-align: center;
 	text-shadow: 1px 1px #666;
 	text-transform: capitalize;
@@ -27,68 +27,60 @@ p {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0.5)";
   opacity: 0.5;
   padding: 2% 0;
+	position: fixed;
 	text-align: center;
 	width: 100%;
 }
 
 .smooth-style.slide-option {
-	position: fixed;
 	top: 0;
 }
 
 .smooth-style.slideOut-option {
-	position: fixed;
 	bottom: 0;
 	right: 0;
-	width: 480px;
+	width: 33%;
 }
 
 .smooth-style.slideHide-option {
-	position: fixed;
 	bottom: 0;
 	left: 0;
-	width: 480px;
+	width: 33%;
 }
 
 .smooth-style.fade-option {
-	position: fixed;
 	left: 0;
 	top: 150px;
-	width: 480px;
+	width: 33%;
 }
 
 .smooth-style.fadeUp-option {
-	position: fixed;
 	right: 0;
 	top: 150px;
-	width: 480px;
+	width: 33%;
 }
 
 .smooth-style.fadeHide-option {
-	position: fixed;
 	left: 0;
 	top: 250px;
-	width: 480px;
+	width: 33%;
 }
 
 .smooth-style.showHide-option {
-	position: fixed;
 	right: 0;
 	top: 250px;
-	width: 480px;
+	width: 33%;
 }
 
 .smooth-style.showUp-option {
-	position: fixed;
 	left: 0;
 	top: 350px;
-	width: 480px;
+	width: 33%;
 }
 
 .smooth-style.showOut-option {
-	position: fixed;
 	right: 0;
 	top: 350px;
-	width: 480px;
+	width: 33%;
 }
 

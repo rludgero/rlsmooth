@@ -1,4 +1,5 @@
 $(function() {
+
   $(".slide-option").rlSmooth();
 
   $(".slideOut-option").rlSmooth('slideOut',{
@@ -33,24 +34,6 @@ $(function() {
 
   $(".showOut-option").rlSmooth('showOut',{
     y: 1500
-  });
-
-
-
-
-
-
-
-
-
-
-  // button go to top
-
-  $(".slideHide-option").click(function(){
-
-    $("html").animate({
-      scrollTop: 0 }, 1000);
-
   });
 
 });
