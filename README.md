@@ -53,7 +53,7 @@ A jQuery flowing effect plugin.
 
 <p>The default css position is top, but you can change to bottom or apply when you need with css.</p>
 
-<p>http://rodrigoludgero.com/rlsmooth/rlsmooth.html</p>
+<p>rlsmooth.html</p>
 
 <h2>License</h2>
 <p>Copyright (c) 2013 Rodrigo Ludgero Licensed under the MIT license</p>
